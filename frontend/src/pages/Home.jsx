@@ -14,19 +14,19 @@ const Home = () => {
     {
       id: 1,
       name: 'Cities covered',
-      number: '18',
+      number: '3',
       color: '#fc7303',
     },
     {
       id: 2,
-      name: 'Achievements',
+      name: 'Partners',
       number: '16',
       color: '#18cf00',
     },
     {
       id: 3,
-      name: 'Offices',
-      number: '33',
+      name: 'Footages',
+      number: '8',
       color: '#0015d5',
     },
     {
@@ -132,37 +132,18 @@ const Home = () => {
               </div>
             </div>
             <div className="w-[35%] h-screen overflow-y-hidden p-4">
-              <div className='w-full p-4 bg-white shadow-xl rounded-2xl'>
-                <h1 className='text-xl font-medium flex items-center'><VscOrganization className='mr-2 font-semibold text-orange-500' size={25} />Our Offices</h1>
+              <div className='w-full mt-10 p-4 bg-white shadow-xl rounded-2xl'>
+                <h1 className='text-xl font-medium flex items-center'><VscOrganization className='mr-2 font-semibold text-orange-500' size={25} />Footage Sources</h1>
                 <ul>
-                  <li className='text-base font-normal w-full my-4 px-6'>Nepsemyak, Dhobighat </li>
-                  <li className='text-base font-normal w-full my-4 px-6'>Nepsemyak, Dhobighat </li>
-                  <li className='text-base font-normal w-full my-4 px-6'>Nepsemyak, Dhobighat </li>
-                  <li className='text-base font-normal w-full my-4 px-6'>Nepsemyak, Dhobighat </li>
+                  <li className='text-base font-normal w-full my-4 px-6'>Thamel, Kathmandu </li>
+                  <li className='text-base font-normal w-full my-4 px-6'>Basantapur Durbar Square </li>
+                  <li className='text-base font-normal w-full my-4 px-6'>Ratnapark, Kathmandu </li>
+                  <li className='text-base font-normal w-full my-4 px-6'>Chabahil, Kathmandus </li>
+                  <li className='text-base font-normal w-full my-4 px-6'>Thamel, Kathmandu </li>
+                  <li className='text-base font-normal w-full my-4 px-6'>Basantapur Durbar Square </li>
+                  <li className='text-base font-normal w-full my-4 px-6'>Ratnapark, Kathmandu </li>
+                  <li className='text-base font-normal w-full my-4 px-6'>Chabahil, Kathmandus </li>
                 </ul>
-              </div>
-              <div className='flex flex-col'>
-                <h1>Data</h1>
-                <PieChart width={400} height={400}>
-                  <Pie
-                    data={data01}
-                    dataKey="value"
-                    cx={200}
-                    cy={200}
-                    outerRadius={60}
-                    fill="#8884d8"
-                  />
-                  <Pie
-                    data={data02}
-                    dataKey="value"
-                    cx={200}
-                    cy={200}
-                    innerRadius={70}
-                    outerRadius={90}
-                    fill="#82ca9d"
-                    label
-                  />
-                </PieChart>
               </div>
             </div>
           </div>
